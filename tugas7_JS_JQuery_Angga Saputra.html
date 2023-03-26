@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas 7 JS JQuery_Angga Saputra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+
+    
+    .body{
+      background-color:#254B62;
+     /* background-image: url(https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667__480.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;*/
+    }
+    .accordion-item{
+      background-color: #C1C7AD;
+    }
+        .flex-containerr {
+	  display: flex;
+	  background-color: bisque;
+    text-align: justify;
+	}
+
+	.flex-container > div {
+	  background-color: #f1f1f1;
+	  margin: 10px;
+	  padding: 20px;
+	  font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px #CFF532; 
+    
+	}
+  .h3{
+    text-align: center;
+    border: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform:inherit;
+    color: #CFF532;
+    
+  }
+  .burung{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .kucing{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    object-position: center;
+  }
+  .strong{
+    text-align: justify;
+    color: #FCFAF1;
+  }
+
+    </style>
+  </head>
+  <body class="body">
+    <h3 class="h3">Gambar Hewan & Suaranya</h3>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Hewan Ternak
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong class="strong">Silahkan klik nama hewan untuk melihat gambar serta suara dari hewan tersebut.</strong>
+            </br> Hewan ternak adalah hewan yang dibudidayakan oleh manusia untuk diambil manfaatnya seperti daging, susu, kulit, dan wol. Beberapa contoh hewan ternak yang sering dibudidayakan di seluruh dunia adalah sapi, kerbau, domba, kambing, babi, ayam, bebek, angsa, dan burung puyuh.
+          </br></br> <!--code>.accordion-body</code-->Pemeliharaan hewan ternak memegang peran penting dalam industri pangan dan banyak memberikan kontribusi terhadap perekonomian. Selain itu, hewan ternak juga merupakan sumber protein dan nutrisi penting bagi manusia. Oleh karena itu, keberadaan hewan ternak dalam kehidupan manusia sangatlah penting.
+          </br>Berikut 3 daftar hewan ternak yang dapat anda pilih
+
+                <div class="flex-container">
+                    <div class="flex-container">
+                        <div class="bebek">Bebek</div>
+                        <div class="kambing">Kambing</div>
+                        <div class="sapi">Sapi</div>  
+                      </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Hewan Peliharaan
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Silahkan klik nama hewan untuk melihat gambar serta suara dari hewan tersebut.</strong>
+              Hewan peliharaan seringkali menjadi teman dekat bagi manusia dan memberikan kebahagiaan serta keuntungan sosial dan kesehatan bagi pemiliknya. Hewan peliharaan dapat membantu mengurangi stres, kecemasan, dan bahkan depresi. Selain itu, mereka juga dapat membantu meningkatkan kebugaran fisik dan interaksi sosial.
+
+              <div class="flex-container">
+                <div class="flex-container">
+                    <div class="burung">Burung</div>
+                    <div class="kucing">Kucing</div>
+                    <div class="kelinci">Kelinci</div>  
+                  </div>
+               </div>
+              <strong>Silahkan klik nama hewan untuk melihat gambar serta suara dari hewan tersebut.</strong> 
+              Hewan peliharaan adalah hewan yang dipelihara oleh manusia untuk dijadikan teman, hiburan, atau bahkan sebagai anggota keluarga. Hewan peliharaan dapat membantu mengurangi stres, meningkatkan aktivitas fisik, dan memberikan rasa nyaman dan kebahagiaan bagi pemiliknya.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Hewan Buas
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="flex-container">
+                <div class="flex-container">
+                    <div class="singa">Singa</div>
+                    <div class="harimau">Harimau</div>
+                    <div class="serigala">Serigala</div>  
+                  </div>
+               </div>
+              <strong>Silahkan klik nama hewan untuk melihat gambar serta suara dari hewan tersebut.</strong>
+              Hewan buas atau hewan liar adalah hewan yang hidup bebas di alam liar dan memiliki sifat agresif dan berbahaya bagi manusia. Beberapa contoh hewan buas diantaranya adalah harimau, singa, beruang, hyena, dan ular berbisa.
+              Hewan buas memiliki kemampuan bertahan hidup yang tinggi dan dapat membunuh mangsa mereka untuk mencari makanan dan melindungi diri dari ancaman predator lainnya. Hewan buas juga memiliki naluri bertahan hidup yang kuat dan dapat menyerang manusia jika mereka merasa terancam atau terganggu.
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="jss/js.js"></script>
+    <script src="jss/jsku.js">
+       
+    </script>
+  </body>
+</html>
